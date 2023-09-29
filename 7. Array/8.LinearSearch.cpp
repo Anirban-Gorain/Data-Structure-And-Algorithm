@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int linearSearch(int arr[], int n, int x)
+{
+    for(int i=0; i<n; i++)
+    {
+        if(arr[i]==x)
+            return i; // First occurrence
+
+        return -1;
+    }
+}
