@@ -61,7 +61,7 @@ long double minimiseMaxDistance(vector<int> &arr, int k)
         auto tp=pq.top();
         pq.pop();
         int gapAt=tp.second;
-        long double gap=arr[gapAt+1]-arr[gap];
+        long double gap=arr[gapAt+1]-arr[gapAt];
 
         howMany[gapAt]++;
 
